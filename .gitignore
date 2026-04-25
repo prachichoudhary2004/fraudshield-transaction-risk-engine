@@ -1,0 +1,25 @@
+# CSV files within the "data" folder
+**/data/*
+
+# Dataset folder (too large for git)
+dataset/
+
+# Generated model files
+*.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Notebook checkpoints
+**/.ipynb_checkpoints/
